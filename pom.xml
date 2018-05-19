@@ -13,8 +13,12 @@
 <distributionManagement>
   <repository>
     <id>test_for_interview</id>
-    <url>http://localhost:8081/nexus/content/repositories/test_for_interview</url>
+    <url>http://localhost:8081/nexus/content/repositories/Releases</url>
   </repository>
+  <snapshotRepository>
+    <id>test_for_interview_snapshot</id>
+    <url>http://localhost:8081/nexus/content/repositories/Snapshots</url>
+  </snapshotRepository>
 </distributionManagement>
   
   <dependencies>
@@ -31,6 +35,11 @@
         <groupId>org.eclipse.jetty</groupId>
         <artifactId>jetty-maven-plugin</artifactId>
         <version>9.4.5.v20170502</version>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
