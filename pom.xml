@@ -3,7 +3,20 @@
   <packaging>war</packaging>
   <groupId>org.eclipse.jetty.demo</groupId>
   <artifactId>jetty-helloworld-webapp</artifactId>
-  <version>1.0</version>
+  <version>1.0.0</version>
+  <scm>
+    <connection>scm:git:https://github.com/vigneswarans/interview_test.git</connection>
+    <developerConnection>scm:git:https://github.com/vigneswarans/interview_test.git</developerConnection>
+    <url>https://github.com/apache/vigneswarans/interview_test/${project.scm.tag}</url>
+    <tag>master</tag>
+  </scm>
+<distributionManagement>
+  <repository>
+    <id>test_for_interview</id>
+    <url>http://localhost:8081/nexus/content/repositories/test_for_interview</url>
+  </repository>
+</distributionManagement>
+  
   <dependencies>
     <dependency>
       <groupId>javax.servlet</groupId>
