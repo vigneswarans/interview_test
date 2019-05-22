@@ -1,5 +1,5 @@
 Jetty Helloworld Webapp
-
+test
 Run with:
 
     $ mvn jetty:run
