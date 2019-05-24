@@ -2,7 +2,7 @@ Jetty Helloworld Webapp
 test123
 Run with:
 
-    $ mvn jetty:run
+    $ mvn jetty:run teat
 
 or:
 
