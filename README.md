@@ -1,4 +1,4 @@
-Jetty Helloworld Webapp 123
+Jetty Helloworld Webapp
 test123
 Run with:
 
